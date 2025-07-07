@@ -13,13 +13,35 @@ body {
 h1 {
     font-family: 'MyPixelFont';
 }
-
+.jaba {
+    height: 700px;
+    flex-shrink: 0; /* не дозволяє зменшуватись */
+}
 .img-center {
     display: flex;
     justify-content: center; /* по горизонталі */
     align-items: center;     /* по вертикалі */
 }
 .button-water {
-
+    cursor: pointer;
+    height: 380px;
+    margin-left: 40px;
+    transition: transform 0.2s ease;
+}
+.button-water:hover {
+    transform: scale(1.03);
+}
+.plant-container {
+    position: relative;
+    display: inline-block;
 }
 
+.cloud {
+    position: absolute;
+    top: 0;
+    left: 17%;
+    display: none;
+    transform: translateX(-50%);
+    width: 500px; /* або як тобі треба */
+    image-rendering: pixelated;
+}
