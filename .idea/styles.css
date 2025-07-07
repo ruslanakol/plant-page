@@ -14,3 +14,12 @@ h1 {
     font-family: 'MyPixelFont';
 }
 
+.img-center {
+    display: flex;
+    justify-content: center; /* по горизонталі */
+    align-items: center;     /* по вертикалі */
+}
+.button-water {
+
+}
+
