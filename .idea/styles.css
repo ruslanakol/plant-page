@@ -10,9 +10,6 @@
 body {
     background: lightpink;
 }
-h1 {
-    font-family: 'MyPixelFont';
-}
 .jaba {
     height: 700px;
     flex-shrink: 0; /* не дозволяє зменшуватись */
@@ -39,9 +36,21 @@ h1 {
 .cloud {
     position: absolute;
     top: 0;
-    left: 17%;
+    left: 35%;
     display: none;
     transform: translateX(-50%);
-    width: 500px; /* або як тобі треба */
+    width: 500px;
     image-rendering: pixelated;
 }
+#message {
+    font-family: 'MyPixelFont', monospace;
+    font-size: 30px;
+    margin-left: 230px;
+    max-width: 300px;
+    text-align: center;
+    color: darkmagenta;
+    word-wrap: break-word;
+    position: absolute;
+    top: 75%;
+}
+
